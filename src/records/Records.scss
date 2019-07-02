@@ -1,0 +1,31 @@
+.records {
+    min-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    ol {
+        display: flex;
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.record {
+    list-style-type: none;
+    font-weight: bold;
+    min-width: 115px;
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition-duration: .4s;
+    min-height: 10em;
+    &:hover {
+        background-color: #e2e2e2;
+        box-shadow: 0 0 10px 2px #cecece;
+    }
+}

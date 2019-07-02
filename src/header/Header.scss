@@ -1,0 +1,23 @@
+.Header {
+    height: 100px;
+    background-color: #a1a1a1;
+    position: relative;
+    z-index: 40;
+    p {
+        margin: 0;
+        font-size: 55px;
+        font-weight: 900;
+        position: relative;
+        top: 10px;
+    }
+    .logo {
+        background-image: url('./logo_radwag.png');
+        background-size: 120px;
+        background-repeat: no-repeat;
+        height:100px;
+        width: 200px;
+        position: relative;
+        top: -50px;
+        left: 50px
+    }
+  }
